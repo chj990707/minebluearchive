@@ -1,0 +1,43 @@
+{
+  "parent": "item/generated",
+  "loader": "forge:obj",
+  "flip_v": true,
+  "model": "bluearchive:models/item/hoshino_gun.obj",
+  "textures": {
+    "texture0": "bluearchive:item/hoshino_gun",
+    "particle": "bluearchive:item/hoshino_gun"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [0, 90, 0],
+      "translation": [0, 2.75, -4],
+      "scale": [0.375, 0.375, 0.375]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [0, -90, 0],
+      "translation": [0, 2.75, -4],
+      "scale": [0.375, 0.375, 0.375]
+    },
+    "firstperson_righthand": {
+      "rotation": [0, 90, 0],
+      "translation": [0, 0, -12]
+    },
+    "firstperson_lefthand": {
+      "rotation": [0, -90, 0],
+      "translation": [0, 0, -12]
+    },
+    "ground": {
+      "scale": [0.375, 0.375, 0.375]
+    },
+    "gui": {
+      "rotation": [0, 0, 45],
+      "translation": [-1, 2, 0],
+      "scale": [0.375, 0.375, 0.375]
+    },
+    "fixed": {
+      "rotation": [0, 0, 45],
+      "translation": [-1, 2, 0],
+      "scale": [0.375, 0.375, 0.375]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "item/generated",
+  "loader": "forge:obj",
+  "flip_v": true,
+  "model": "bluearchive:models/item/hoshino_shield.obj",
+  "textures": {
+    "texture0": "bluearchive:item/hoshino_shield",
+    "particle": "bluearchive:item/hoshino_shield"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [ 45, 135, 0 ],
+      "translation": [ 2, 1, 3.5 ],
+      "scale": [ 0.375, 0.375, 0.375 ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [ 45, 135, 0 ],
+      "translation": [ 2, 1, 3.5 ],
+      "scale": [ 0.375, 0.375, 0.375 ]
+    },
+    "firstperson_righthand": {
+      "rotation": [ 0, 180, -5 ],
+      "scale": [ 0.375, 0.375, 0.375 ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [ 0, 180, -5 ],
+      "scale": [ 0.375, 0.375, 0.375 ]
+    },
+    "gui": {
+      "rotation": [ 0, 45, 15 ],
+      "translation": [ 0, 2, 0 ],
+      "scale": [ 0.25, 0.25, 0.25 ]
+    }
+  }
+}
