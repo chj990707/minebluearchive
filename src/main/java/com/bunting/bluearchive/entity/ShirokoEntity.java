@@ -13,6 +13,6 @@ public class ShirokoEntity extends AbstractStudentEntity
     @Override
     public float getScale()
     {
-        return this.isBaby() ? 0.5F : 0.78F;
+        return 0.78F;
     }
 }

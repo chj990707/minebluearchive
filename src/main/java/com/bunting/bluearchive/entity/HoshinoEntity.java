@@ -11,14 +11,8 @@ public class HoshinoEntity extends AbstractStudentEntity
     }
 
     @Override
-    protected void registerGoals()
-    {
-        super.registerGoals();
-    }
-
-    @Override
     public float getScale()
     {
-        return this.isBaby() ? 0.5F : 0.725F;
+        return 0.725F;
     }
 }
